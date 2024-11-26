@@ -19,4 +19,4 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RemoteEvent = ReplicatedStorage:WaitForChild("LUAuwu")
 RemoteEvent:FireServer("Hello, Server I love Lua!")
 
- _🔒  Always validate data server-side to protect your game from exploiters. Never trust client input._
+ 🔒  *Always validate data server-side to protect your game from exploiters. Never trust client input.*
