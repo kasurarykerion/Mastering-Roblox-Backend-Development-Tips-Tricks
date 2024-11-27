@@ -26,3 +26,5 @@ game.Players.PlayerRemoving:Connect(function(player)
         warn("Failed to save data for the player " .. player.Name)
     end
 end)
+
+Tip: Always use pcall when working with DataStoreService to handle potential errors gracefully
